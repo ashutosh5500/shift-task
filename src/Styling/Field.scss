@@ -1,0 +1,24 @@
+.input-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 24px 12px;
+  width: 100%;
+
+  .input-field {
+    flex: 1;
+  }
+  .label-field {
+    flex: 1;
+  }
+}
+.error-label {
+  font-size: 12px;
+  margin-top: 10px;
+  color: red;
+}
+
+.select-input-wrapper {
+  display: flex;
+  flex-direction: column;
+}

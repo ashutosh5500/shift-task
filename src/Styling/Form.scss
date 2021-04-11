@@ -1,0 +1,70 @@
+.form-cmp {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 60px 0;
+  margin: 0 auto;
+  .shifts {
+    width: 40%;
+  }
+  .shifts .shifts-cmp {
+    line-height: 60px;
+  }
+  label {
+    font-weight: bold;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  input:focus {
+    outline-offset: 0 !important;
+    outline: 0;
+    border-bottom: 1px solid #3890ff;
+    transition: all 0.5s;
+  }
+  select {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+  }
+}
+
+.add-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+.add-btn button {
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+}
+.input-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  margin: auto;
+  width: 50%;
+}
+.days-main {
+  border: 1px solid grey;
+  width: 100%;
+  text-align: center;
+  margin: 16px 0px;
+}
+
+.week-main {
+  margin-right: auto;
+}
